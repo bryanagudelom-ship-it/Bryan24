@@ -166,7 +166,7 @@ rm(N)
 x = 3+7
 a <- 2
 b = seq(1,10,1)
-c = 1:10
+c = 1:20
 z = seq(0,30,2)
 y = c(1,2,4,556,6)
 #set.seed(19970901)
@@ -188,13 +188,13 @@ c
 z
 
 print("¿a es igual x?")
-# a == x
+ a == x
 
 print("¿b es igual c?")
-#b == c
+b == c
 
 print("¿z es igual c?")
-#Z==c
+Z==c
 
 print("¿OB es igual HOLA_1?")
 OB == HOLA_1
@@ -203,6 +203,7 @@ OB == HOLA_1 == "Hola" # Respetemos la estructura del lenguaje
 print("¿UNIVERSIDAD es igual U_UNIVERSIDAD?")
 
 UNIVERSIDAD == U_UNIVERSIDAD
+
 
 
 print("Hagamos operaciones a nuestros vectores")
@@ -223,7 +224,7 @@ paste0(OB, " Curso Cuentas Nacionales")
 
 # Respetemos la estructura del lenguaje
 OB + " Curso Cuentas Nacionales"
-OB + "14" 
+OB + "14"
 
 rm(x, b, z, y, HOLA_1, UNIVERSIDAD, U_UNIVERSIDAD, nombres_1997, OB)
 
